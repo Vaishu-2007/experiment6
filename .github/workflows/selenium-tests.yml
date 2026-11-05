@@ -60,5 +60,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/selenium:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/selenium:${{ github.sha }}
+            ${{ secrets.vaishnavi }}/selenium:latest
+            ${{ secrets.vaishnavi }}/selenium:${{ github.sha }}
